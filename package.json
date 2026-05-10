@@ -1,6 +1,6 @@
 {
   "name": "desktop-storage-assistant",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A production-ready desktop storage assistant built with Electron",
   "main": "main.js",
   "author": "Your Name",
@@ -45,7 +45,9 @@
           ]
         }
       ],
-      "sign": false
+      "sign": false,
+      "cscLink": null,
+      "cscKeyPassword": null
     },
     "nsis": {
       "oneClick": false,
