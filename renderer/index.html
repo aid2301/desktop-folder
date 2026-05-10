@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>收纳助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="storage-box" class="glass-container">
+        <div class="header">
+            <div class="header-left">
+                <button id="fold-btn" class="icon-btn" title="折叠/展开">▲</button>
+                <span>收纳助手</span>
+            </div>
+            <div class="header-right">
+                <!-- 【新增】主题切换按钮 -->
+                <button id="theme-btn" class="icon-btn" title="切换主题">🎨</button>
+                <button id="close-btn" class="icon-btn" title="隐藏">×</button>
+            </div>
+        </div>
+        
+        <div class="content" id="main-content">
+            <p id="info-text">拖拽此处移动窗口<br>边缘可调整大小</p>
+        </div>
+
+        <!-- 【新增】主题选择面板 -->
+        <div id="theme-panel" class="theme-panel hidden">
+            <div class="theme-option" data-theme="default">默认玻璃</div>
+            <div class="theme-option" data-theme="dark">暗色透明</div>
+            <div class="theme-option" data-theme="light">亮色透明</div>
+            <div class="theme-option" data-theme="frosted">高级磨砂</div>
+        </div>
+
+        <div class="resizer resizer-r" data-direction="r"></div>
+        <div class="resizer resizer-b" data-direction="b"></div>
+        <div class="resizer resizer-rb" data-direction="rb"></div>
+        <div class="resizer resizer-lb" data-direction="lb"></div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
