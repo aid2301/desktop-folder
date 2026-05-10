@@ -1,6 +1,6 @@
 {
   "name": "desktop-storage-assistant",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A production-ready desktop storage assistant built with Electron",
   "main": "main.js",
   "author": "Your Name",
@@ -57,8 +57,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "YOUR_GITHUB_USERNAME",
-      "repo": "YOUR_REPO_NAME"
+      "owner": "aid2301",
+      "repo": "desktop-folder"
     }
   }
 }
